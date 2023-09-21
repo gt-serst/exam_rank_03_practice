@@ -89,7 +89,6 @@ int	main(int argc, char **argv)
 			if (res != 5 || radius <= 0 || (type != 'c' && type != 'C'))
 				break;
 			row = 0;
-			col = 0;
 			while (row < height)
 			{
 				col = 0;

@@ -99,7 +99,6 @@ int	main(int argc, char **argv)
 			else if (res != 6 || horizontal <= 0 || vertical <= 0 || (type != 'r' && type != 'R'))
 				break;
 			row = 0;
-			col = 0;
 			while (row < height)
 			{
 				col = 0;
